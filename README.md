@@ -1,6 +1,12 @@
 # use-ethers-modal
 
-A React context for using ethers.js + web3modal in a dapp
+A [React](https://github.com/facebook/react) context for using [ethers.js](https://github.com/ethers-io/ethers.js/) + [web3modal](https://github.com/Web3Modal/web3modal) in a dapp
+
+## Installation
+
+```sh
+npm install --save use-ethers-modal
+```
 
 ## Usage
 
