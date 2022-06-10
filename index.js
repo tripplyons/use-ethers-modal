@@ -116,7 +116,8 @@ export function EthersModalProvider({ children, settings }) {
         provider.removeAllListeners();
         setProvider(null);
       },
-      switchNetwork: async (chainIdHex) => {
+      switchNetwork: async (chainId) => {
+        let chainIdHex = typeof chainId === 'string' ? chainId : '0x' + chainId.toString(16);
         provider.provider.request({
           method: "wallet_switchEthereumChain",
           params: [{

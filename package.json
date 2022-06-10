@@ -1,6 +1,6 @@
 {
   "name": "use-ethers-modal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A React context for using web3modal + ethers.js in a dapp",
   "source": "index.js",
   "main": "./dist/bundle.js",

@@ -20,7 +20,7 @@ function Child() {
         <button onClick={disconnect}>
           Disconnect
         </button>
-        <button onClick={() => switchNetwork('0x1')}>
+        <button onClick={() => switchNetwork(1)}>
           Switch Network to Mainnet
         </button>
         <div>
