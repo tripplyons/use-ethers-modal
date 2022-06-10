@@ -1,0 +1,64 @@
+{
+  "name": "use-ethers-modal",
+  "version": "1.0.0",
+  "description": "A React context for using web3modal + ethers.js in a dapp",
+  "source": "index.js",
+  "main": "./dist/bundle.js",
+  "module": "./dist/bundle.js",
+  "exports": "./dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build-webpack": "npx webpack --config webpack.config.js",
+    "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripplyons/use-ethers-modal.git"
+  },
+  "keywords": [
+    "web3",
+    "ethers",
+    "ethereum",
+    "dapp",
+    "defi"
+  ],
+  "author": "Tripp Lyons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripplyons/use-ethers-modal/issues"
+  },
+  "homepage": "https://github.com/tripplyons/use-ethers-modal#readme",
+  "dependencies": {
+    "ethers": "^5.6.8",
+    "web3modal": "^1.9.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "babel-loader": "^8.2.5",
+    "create-react-app": "^5.0.1",
+    "react": "latest",
+    "rollup": "^2.75.6",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/preset-react"
+    ]
+  }
+}
