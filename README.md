@@ -8,6 +8,10 @@ A [React](https://github.com/facebook/react) context for using [ethers.js](https
 npm install --save use-ethers-modal
 ```
 
-## Usage
+## React Usage
 
 See [example-app/src/App.js](example-app/src/App.js) for example usage.
+
+## Next.js Usage
+
+Right now, you will need to use [`next-transpile-modules`](https://github.com/martpie/next-transpile-modules) to use this in a Next.js project. If someone knows a better way to do this, please let me know.
